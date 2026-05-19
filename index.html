@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD com API Real</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema com API</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Usuários</h2>
+
+            <form id="form">
+                <input type="hidden" id="editId">
+                <input id="nome" placeholder="Nome" required>
+                <input id="email" placeholder="Email" required>
+                <button type="submit" id="btnSalvar">Salvar</button>
+                <button type="button" id="btnCancelar">Cancelar</button>
+            </form>
+
+            <ul id="lista"></ul>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
